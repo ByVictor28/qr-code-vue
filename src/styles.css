@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.qw {
+  border: 1px solid red;
+}
+.as {
+  border: 1px solid blue;
+}
+
+@layer components {
+  .my-button {
+    @apply bg-primary w-auto  px-8 py-4 rounded-lg text-text font-semibold;
+  }
+}
+
+input:focus,
+input:focus {
+  outline: none;
+}
